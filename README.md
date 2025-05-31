@@ -4,7 +4,7 @@ Bu GitHub deposunda, Kotlin programlama dilinin temellerinden başlayarak fonksi
 📌 İçerikler
 - Kotlin Temelleri: Değişkenler, veri türleri, döngüler, koşullar
 - Fonksiyonlar: Parametreli ve parametresiz fonksiyonlar, ?lambda ifadeleri
--?
+- Sınıflar : Constructor yapılı veya constructor yapısı olmayan sınıflar
 - Koleksiyonlar ve Veri Yapıları: List, Set, Map kullanımı
 - Algoritmik Sorular: Çeşitli mantık ve problem çözme soruları
 Bu depo, Kotlin’e yeni başlayanlar için rehber niteliğinde olup, ileri seviyedeki programcılar için de algoritmik becerilerini geliştirme fırsatı sunmaktadır.
@@ -17,7 +17,7 @@ This GitHub repository covers many topics, starting from the basics of the Kotli
 📌 Contents
 - Kotlin Basics: Variables, data types, loops, conditions
 - Functions: Parameterized and parameterless functions, ?lambda expressions
--?
+- Classes: Classes with or without constructor structure
 - Collections and Data Structures: Using List, Set, Map
 - Algorithmic Questions: Various logic and problem solving questions
 This repository is a guide for those who are new to Kotlin and offers an opportunity for advanced programmers to develop their algorithmic skills.
