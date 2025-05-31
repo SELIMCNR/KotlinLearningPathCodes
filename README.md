@@ -9,4 +9,3 @@ Bu GitHub deposunda, Kotlin programlama dilinin temellerinden başlayarak fonksi
 Bu depo, Kotlin’e yeni başlayanlar için rehber niteliğinde olup, ileri seviyedeki programcılar için de algoritmik becerilerini geliştirme fırsatı sunmaktadır.
 Eğer bir hata fark ederseniz ya da eklenmesini istediğiniz bir konu varsa, pull request göndererek katkıda bulunabilirsiniz. 🚀
 
-Bu açıklama GitHub’daki deponun içeriğini özetleyen genel bir giriş olabilir. İçeriğe ve projeye göre detayları güncelleyebilirsin. 😊
