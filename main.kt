@@ -38,6 +38,11 @@ fun main() {
    var ornekIntler : Int = 400
     println(ornekByte*ornekShort)
     println(ornekByte/ornekShort)
+
+
+   var ornekDegiskenInt:Int = 500 
+   println(ornekDegiskenInt)	
+
     
    val kullaniciYasi = 25
    val kullanici_yasi =45
@@ -75,6 +80,8 @@ fun main() {
     var sayi15 :UShort = 25u
     var sayi28 :UInt = 3638u
       var sayi121 :ULong = 20005u
+
+
     
     //Stringler ->
     println("-----String -----")
@@ -90,6 +97,8 @@ fun main() {
     println(isim.lowercase())
     println(x.rem(5))
     println(isim+" "+soyisim)
+
+    	
     
     val yas ="35"
     val ornekDeger = "20"
@@ -131,7 +140,7 @@ fun main() {
     println("selim" == "selim")
     println(11!=11 && 12==11)
     println(4>1 || 1>4)
-    
+
     
    
     
@@ -179,6 +188,8 @@ println("My name is $firstName $lastName")
    
    dizim[3]=25
    println(dizim[3])
+
+
   
     
    println("-------ArrayList------")
@@ -202,14 +213,15 @@ println("My name is $firstName $lastName")
    val numaraListesi = arrayListOf <Int>() 
    numaraListesi.add(5646)
    numaraListesi.add(30)
+   println(numaraListesi[0])
    
    
    
    val digerOrnekListe = ArrayList<Int>()
    digerOrnekListe.add(20)
    digerOrnekListe.add(10)
-    digerOrnekListe.add(10)
-    
+   digerOrnekListe.add(10)
+   println(digerOrnekListe[1]) 
 
    
    println(numaraListesi[1] * digerOrnekListe[2])
@@ -221,7 +233,13 @@ println("My name is $firstName $lastName")
    karisikBosListe.add(false)
    
    println(karisikBosListe.get(0))
-   
+
+
+   val yenListe = arrayListOf("a","b",4,5)
+   yenListe.add("c")
+   yenListe.add("d")
+   println(yenListe.get(0))
+   println(yenListe[1])
 
    //Setler sabittir
    println("--------set------")
@@ -243,6 +261,14 @@ println("My name is $firstName $lastName")
    bosSetOrnegi.forEach{
        println(it)
    }
+
+   val setler1 = HashSet<String>()
+   setler1 .add("bir")
+   setler1.add("bir")
+   setler1.forEach{
+	   println(it)
+   }
+   
    
  
    var ornekDizi = arrayOf("a","sds","dsd","a","a")
@@ -277,7 +303,12 @@ println("My name is $firstName $lastName")
    val ornekHashMap = HashMap<String,String>()
    ornekHashMap.put("a","b")
    ornekHashMap.put("c","d")
-  
+
+   val yeniMap = hashMapOf <String,Int>()
+   yeniMap.put("a",1)
+   yeniMap.put("b",2)
+  println(yeniMap.get("a"))
+  println(yeniMap.get("b"))
    
    // if statements
    println("-------If Kontrolleri -------")
@@ -307,6 +338,10 @@ println("My name is $firstName $lastName")
    else if (skor>=20 && skor<30){
        println("güzel bir skor elde ettiniz")
    } 
+
+  
+	
+
    
  
    //when 
@@ -330,7 +365,9 @@ println("My name is $firstName $lastName")
    } 
    
    println(notString)
-   
+
+
+
     
    
    println("--------While Döngüsü----------")
@@ -342,7 +379,7 @@ println("My name is $firstName $lastName")
        j=j+1
    }
    println("döngü bitti")
-   
+	
 	
    // For döngüsü 
    
@@ -351,6 +388,7 @@ println("My name is $firstName $lastName")
    val baskaDizi = arrayListOf(5,10,15,20,25,30)
    println(baskaDizi[0]/5*3)
    println(baskaDizi[1]/5*3)
+
    
    for(numara in baskaDizi){
        println(numara /5 * 3)
@@ -374,8 +412,7 @@ println("My name is $firstName $lastName")
    benimStringDizim.forEach{
        println(it.uppercase())
    }
-   
- 
+
    
    
  yazdir()
